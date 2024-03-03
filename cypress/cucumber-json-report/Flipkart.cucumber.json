@@ -1,0 +1,177 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Unbox Assignment to automate flipkart for the given sceanrio.",
+    "line": 1,
+    "id": "unbox-assignment-to-automate-flipkart-for-the-given-sceanrio.",
+    "tags": [],
+    "uri": "Flipkart.feature",
+    "elements": [
+      {
+        "id": "unbox-assignment-to-automate-flipkart-for-the-given-sceanrio.;to-test-and-perform-the-scenario-on-flipkart.",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "To test and perform the scenario on flipkart.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit flipkart website",
+            "result": {
+              "status": "passed",
+              "duration": 5761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on the global search module",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mobile"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I search for keyword mobile",
+            "result": {
+              "status": "passed",
+              "duration": 6387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify the search results message",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I added 7th and 8th phone to compare tray",
+            "result": {
+              "status": "passed",
+              "duration": 1393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the 8th phone name",
+            "result": {
+              "status": "passed",
+              "duration": 4752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I add the product to cart",
+            "result": {
+              "status": "passed",
+              "duration": 3320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I verify the button name change to going to cart and item is added to cart",
+            "result": {
+              "status": "passed",
+              "duration": 1426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I verify the total amount displayed is the same as was displayed on the products list page",
+            "result": {
+              "status": "passed",
+              "duration": 1416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I increase the product quantity by one, and verify the pop-up message of quantity increase",
+            "result": {
+              "status": "passed",
+              "duration": 5267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on remove option and verify the pop-up displayed",
+            "result": {
+              "status": "passed",
+              "duration": 424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I remove the product from the cart",
+            "result": {
+              "status": "passed",
+              "duration": 294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I verify the removal message",
+            "result": {
+              "status": "passed",
+              "duration": 803000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I verify the empty cart message screen",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

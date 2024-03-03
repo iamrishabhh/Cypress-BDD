@@ -1,0 +1,29 @@
+{
+  "name": "cypressbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-report": "node cucumber-html-report.js",
+    "unbox-test": "npx cypress run --spec 'cypress/e2e/cucumber/Tests/Flipkart.feature' --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.6.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/cucumber/Tests",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json-report",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
